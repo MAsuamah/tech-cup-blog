@@ -41,11 +41,10 @@ body {
   font-size: 30px;
   font-weight: 900;
   color: white;
-  transition: 1s;
 }
 
 .links ul li a:hover {
-  font-size: 30px;
+  opacity: 0.5;
 }
 
 header h1 {
@@ -85,8 +84,40 @@ height: 60vh;
   background-color: rgb(125, 96, 133);
 }
 
-.link {
-  text-decoration: none;
+/*CARD STYLING ENDS*/
+
+/*FORM STYLING STARTS*/
+.btn {
+  background-color: rgb(125, 96, 133);
+  color: white;
+  font-size: 25px;
+  margin: 15px;
 }
 
-/*CARD STYLING ENDS*/
+.form-inline {  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+  justify-content: left;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.login-btn {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+
+/*FORM STYLING ENDS*/
