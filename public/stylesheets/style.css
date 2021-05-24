@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient( to bottom right, brown, orange); 
+  background: linear-gradient(to right, burlywood, peru, sienna)
 }
 
 .titles {
@@ -73,3 +73,10 @@ height: 60vh;
 }
 
 /*HERO STYLING ENDS*/
+
+/*CARD STYLING STARTS*/
+.card{
+  margin: 30px;
+}
+
+/*CARD STYLING ENDS*/
