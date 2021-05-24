@@ -1,9 +1,75 @@
-.jumbotron {
-  color: white;
-  text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+/*UTLITIES STYLING STARTS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
+
+body {
+  background-image: linear-gradient( to bottom right, brown, orange); 
+}
+
+.titles {
+  font-size: 50px; 
+}
+
+/*UTLITIES STYLING ENDS*/
+
+/*HEADER STYLING STARTS */
+
+.links {
+  padding: 20px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+
+.links ul li a {
+  font-family: 'Staatliches', cursive;
+  margin: 25px;
+  border-width: thin;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+  transition: 1s;
+}
+
+.links ul li a:hover {
+  font-size: 30px;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  color: white;
+}
+
+/*HEADER STYLING ENDS*/
+
+/*HERO STYLING STARTS*/
+
+#hero h2 {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+
+#hero {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/andrew-neel-cckf4TsHAuw-unsplash.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 60vh;
+}
+
+/*HERO STYLING ENDS*/
