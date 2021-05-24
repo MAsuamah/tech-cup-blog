@@ -114,8 +114,21 @@ height: 60vh;
 }
 
 .login-btn {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 77px;
+  padding-right: 77px;
+}
+
+.signup-btn {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.badge-link {
+  background-color: rgb(125, 96, 133);
+  padding: 20px;
+  font-size: 25px;
+  margin-left: 15px;
+  font-weight: 400;
 }
 
 
