@@ -47,6 +47,7 @@ body {
   opacity: 0.5;
 }
 
+
 header h1 {
   font-family: 'Staatliches', cursive;
   color: white;
@@ -131,6 +132,19 @@ height: 60vh;
   font-weight: 400;
 }
 
-
-
 /*FORM STYLING ENDS*/
+
+.btn-logout {
+  background: none;
+  border: none;
+  color: white;
+  margin-top: 0;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px; 
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-logout:hover {
+  opacity: 0.5;
+}
