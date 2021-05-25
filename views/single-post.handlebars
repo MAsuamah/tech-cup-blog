@@ -25,6 +25,7 @@
 
   <div class="w-75"></div>
 
+{{#if loggedIn}}
   <div class="row">
     <div class="col-12">
       <form class="comment-form">
@@ -38,6 +39,7 @@
       </form>
     </div>
   </div>
+{{/if}}
 
   <div class="w-75"></div>
 
@@ -53,7 +55,9 @@
       </section>
     {{/each}}
   </div>
-  
+
 </div>
 
+{{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
+{{/if}}
