@@ -16,7 +16,7 @@ body {
 
 /*UTLITIES STYLING ENDS*/
 
-/*HEADER STYLING STARTS */
+/*NAV STYLING STARTS */
 
 .links {
   padding: 20px 35px;
@@ -47,13 +47,27 @@ body {
   opacity: 0.5;
 }
 
+.btn-logout {
+  background: none;
+  border: none;
+  color: white;
+  margin-top: 0;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px; 
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-logout:hover {
+  opacity: 0.5;
+}
 
 header h1 {
   font-family: 'Staatliches', cursive;
   color: white;
 }
 
-/*HEADER STYLING ENDS*/
+/*NAV STYLING ENDS*/
 
 /*HERO STYLING STARTS*/
 
@@ -65,12 +79,12 @@ header h1 {
 }
 
 #hero {
-background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.308)), url(../images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg);
-background-position: center;
-background-position-y: bottom 100px;
-background-repeat: no-repeat;
-background-size: cover;
-height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.308)), url(../images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg);
+  background-position: center;
+  background-position-y: bottom 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
 }
 
 /*HERO STYLING ENDS*/
@@ -91,16 +105,15 @@ height: 60vh;
   color: black;
 }
 
-.post-link:hover{
+.post-link:hover {
   color: inherit;
   opacity: 0.5;
   text-decoration: none;
-
 }
 
 /*CARD STYLING ENDS*/
 
-/*FORM STYLING STARTS*/
+/*SIGNUP/LOGIN FORM STYLING STARTS*/
 .btn {
   background-color: rgb(125, 96, 133);
   color: white;
@@ -145,24 +158,30 @@ height: 60vh;
   font-weight: 400;
 }
 
-/*FORM STYLING ENDS*/
+/* SIGNUP/LOGIN FORM STYLING ENDS*/
 
-.btn-logout {
-  background: none;
-  border: none;
-  color: white;
-  margin-top: 0;
-  font-family: 'Staatliches', cursive;
-  font-size: 30px; 
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.btn-logout:hover {
-  opacity: 0.5;
-}
+/* SINGLE POST STYLING STARTS */
 
 .single-title {
   font-family: 'Staatliches', cursive;
   color: white;
 }
+
+textarea {
+  min-width: 50%;
+  min-height: 200px;
+}
+
+.comment:nth-child(odd) {
+  background-color: rgb(207, 188, 212);
+  color: black;
+  padding: 10px;
+}
+
+.comment:nth-child(even) {
+  background-color: rgb(125, 96, 133);
+  color: white;
+  padding: 10px;
+}
+
+/* SINGLE POST STYLING ENDS*/
