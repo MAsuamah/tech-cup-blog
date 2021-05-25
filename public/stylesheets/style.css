@@ -85,6 +85,19 @@ height: 60vh;
   background-color: rgb(125, 96, 133);
 }
 
+.post-link {
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  color: black;
+}
+
+.post-link:hover{
+  color: inherit;
+  opacity: 0.5;
+  text-decoration: none;
+
+}
+
 /*CARD STYLING ENDS*/
 
 /*FORM STYLING STARTS*/
@@ -147,4 +160,9 @@ height: 60vh;
 
 .btn-logout:hover {
   opacity: 0.5;
+}
+
+.single-title {
+  font-family: 'Staatliches', cursive;
+  color: white;
 }
