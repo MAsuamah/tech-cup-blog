@@ -20,16 +20,19 @@
           <li>
             <a href ="/">Home</a>
           </li>
+          {{#if loggedIn}}
           <li>
             <a href ="#">Dashboard</a>
           </li>
           <li>
-            <a href ="/login">Login</a>
-          </li>
-          <li>
             <button id="logout" class="btn-logout">Logout</button>
           </li>
+          {{else}}
+          <li>
+            <a href ="/login">Login</a>
+          </li>
         </ul>
+        {{/if}}
       </nav>     
     </header>    
     <h2 class="titles">A blog where you can consume all things tech.</h2>
@@ -37,7 +40,9 @@
     <main>
       {{{ body }}}
     </main>
+    {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
+    {{/if}}
 </body>
 
 </html>
