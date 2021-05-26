@@ -10,12 +10,16 @@
     <div class="row user-posts">
       <div class="col-12"
         <section>
-          <h2 class="post-create your-post">Your Posts</h2>
+          <h1 class="post-create your-post">Your Posts</h1>
           <ol>
             {{#each posts as |post|}}
-            <li>
-              {{> post-info post}}
-              <a href="/dashboard/edit/{{post.id}}" class="edit-link"><i class="fas fa-pencil-alt fa-fw"></i><span class="ml-1">Edit post</span></a>
+
+            <li class="post-li">
+              <a href="/dashboard/edit/{{post.id}}" class="edit-link">
+                <div class="alert past-posts" role="alert">
+                  {{post.title}} <span class="ml-1"><i class="fas fa-pencil-alt fa-fw"></i></span> <br> <span id="past-post-date">{{format_date post.created_at}}</span>
+                </div>
+              </a>
             </li>
             {{/each}}
           </ol>

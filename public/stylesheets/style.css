@@ -186,7 +186,7 @@ textarea {
 
 /* SINGLE POST STYLING ENDS*/
 
-/* NEW POST STYLING STARTS*/
+/* NEW POST/DASHBOARD STYLING STARTS*/
 .post-create {
   color: white;
   font-family: 'Staatliches', cursive;
@@ -240,7 +240,32 @@ textarea {
 .your-post {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
+
+.past-posts {
+  background-color: rgb(207, 188, 212);
+  color: black;
+  font-size: 25px;
+  width: 60%;
+}
+
+#past-post-date {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; 
+}
+
 /* NEW POST STYLING ENDS*/
+
+
+/* EDIT POST STYLING STARTS*/
+
+.delete {
+  background-color: red;
+}
+
+/* EDIT POST STYLING ENDS*/
+
+
 
 
