@@ -1,28 +1,11 @@
-<div class="container">
+<div class="container dash">
 
-  <div class="row">
-    <div class="col-sm-12 ">
-    <section class="form-pad">
-      <h2 class="post-create">Create New Post</h2>
+  <div class="row d-flex justify-content-center">
 
-      <form class="new-post-form">
-        <div>
-          <label class="post-title" for="post-title">Title</label>
-          <br>
-          <input type="text" id="post-title" name="post-title" />
-        </div>
-        <div>
-            <textarea class="post-body" name="post-body"></textarea>
-        </div>
-        <button type="submit" class="btn">Create</button>
-      </form>
-    </section>
-    </div>
+    <a class="badge badge-link text-white new-post col-md-6" href="/dashboard/new"><i class="fas fa-plus fa-fw"></i><span class="ml-1">New Post</span></a>
+
   </div>
-
-
-  <div class="w-100"></div>
-
+  
   {{#if posts.length}}
     <div class="row user-posts">
       <div class="col-12"
@@ -32,14 +15,13 @@
             {{#each posts as |post|}}
             <li>
               {{> post-info post}}
-              <a href="/dashboard/edit/{{post.id}}" class="edit-link"><i class="fas fa-pencil-alt"></i>Edit post</a>
+              <a href="/dashboard/edit/{{post.id}}" class="edit-link"><i class="fas fa-pencil-alt fa-fw"></i><span class="ml-1">Edit post</span></a>
             </li>
             {{/each}}
           </ol>
         </section>
       </div>
-    {{/if}} 
-  </div>
+    </div>
+  {{/if}}
 </div>
 
-<script src="/javascript/add-post.js"></script>
