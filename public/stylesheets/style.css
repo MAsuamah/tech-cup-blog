@@ -108,7 +108,7 @@ header h1 {
 .post-link:hover {
   color: inherit;
   opacity: 0.5;
-  text-decoration: none;
+  
 }
 
 /*CARD STYLING ENDS*/
@@ -185,3 +185,58 @@ textarea {
 }
 
 /* SINGLE POST STYLING ENDS*/
+
+/* NEW POST STYLING STARTS*/
+.post-create {
+  color: white;
+  font-family: 'Staatliches', cursive;
+}
+
+.form-pad {
+  padding: 20px;
+}
+
+.new-post-form{
+  margin-top: 30px;
+}
+
+.post-body {
+  margin-top: 20px;
+  min-width: 90%;
+  min-height: 300px;
+}
+
+.post-title {
+  color: white;
+  font-size: 25px;
+}
+
+#post-title {
+  width: 40vh;
+}
+
+.user-posts {
+  margin-top: 50px;
+}
+
+.edit-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Staatliches', cursive;
+}
+
+.edit-link:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
+
+.your-post {
+  display: flex;
+  justify-content: center;
+}
+/* NEW POST STYLING ENDS*/
+
+

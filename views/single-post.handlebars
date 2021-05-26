@@ -24,25 +24,25 @@
 
   <div class="w-75"></div>
 
-{{#if loggedIn}}
-  <div class="row">
-    <div class="col-12">
-      <form class="comment-form">
-        <div>
-          <textarea name="comment-body"></textarea>
-        </div>
+  {{#if loggedIn}}
+    <div class="row">
+      <div class="col-12">
+        <form class="comment-form">
+          <div>
+            <textarea name="comment-body"></textarea>
+          </div>
 
-        <div>
-          <button type="submit" class="btn">Add comment</button>
-        </div>
-      </form>
+          <div>
+            <button type="submit" class="btn">Add comment</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-{{/if}}
+  {{/if}}
 
   <div class="w-75"></div>
 
-{{> comments post.comments}}
+  {{> comments post.comments}}
 
 </div>
 
