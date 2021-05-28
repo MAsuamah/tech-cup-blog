@@ -17,7 +17,7 @@ var inactivityTime = function () {
 
   function resetTimer() {
       clearTimeout(time);
-      time = setTimeout(loggedOut, 900000)
+      time = setTimeout(loggedOut, 6000)
   }
 };
 

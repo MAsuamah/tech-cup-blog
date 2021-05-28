@@ -75,7 +75,9 @@ router.get('/edit/:id', withAuth, (req, res) => {
 
 //CREATE NEW POST ROUTE
 router.get('/new', (req, res) => {
-  res.render('new-post');
+  res.render('new-post', {
+    loggedIn: true
+  });
 });
 
 
