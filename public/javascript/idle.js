@@ -1,6 +1,6 @@
 //Code used from https://stackoverflow.com/questions/667555/how-to-detect-idle-time-in-javascript-elegantly'
 
-// Log out user if idle on the page for more than a set time
+// Log out user if idle on the page for more than a set time (10 min)
 
 var inactivityTime = function () {
   var time;
@@ -17,7 +17,7 @@ var inactivityTime = function () {
 
   function resetTimer() {
       clearTimeout(time);
-      time = setTimeout(loggedOut, 6000)
+      time = setTimeout(loggedOut, 600000)
   }
 };
 
