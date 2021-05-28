@@ -1,3 +1,4 @@
+//FUNCTIONALITY FOR LOGIN FORM
 async function loginFormHandler(event) {
   event.preventDefault();
 

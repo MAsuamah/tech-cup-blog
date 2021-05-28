@@ -1,3 +1,4 @@
+//USER CREATS BLOG POST
 async function newFormHandler(event) {
   event.preventDefault();
 

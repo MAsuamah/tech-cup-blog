@@ -1,3 +1,4 @@
+//FOR USERS DELETING THIER OWN POSTS
 async function deleteFormHandler(event) {
   event.preventDefault();
 

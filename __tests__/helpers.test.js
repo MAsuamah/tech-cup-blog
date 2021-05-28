@@ -1,3 +1,4 @@
+//TEST FOR FORMATTING DAATE
 const {format_date} = require('../utils/helpers');
 
 test('format_date() returns a date string', () => {

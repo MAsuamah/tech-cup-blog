@@ -49,7 +49,7 @@ router.get('/:id', (req, res) => {
   });
 });
 
-// POST /api/users
+// POST /api/users--SIGN UP/CREATE USER
 router.post('/', (req, res) => {
   User.create({
     username: req.body.username,
@@ -66,6 +66,7 @@ router.post('/', (req, res) => {
   })
 });
 
+//GET USER SESSION FROM VALID LOGIN CREDENTIALS
 router.post('/login', (req, res) => {
     User.findOne({
       where: {
@@ -96,6 +97,7 @@ router.post('/login', (req, res) => {
   });
 
 
+//LOGOUT USER ROUTE
 router.post('/logout', (req, res) => {
   if (req.session.loggedIn) {
     req.session.destroy(() => {

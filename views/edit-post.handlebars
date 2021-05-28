@@ -4,22 +4,22 @@
     <a class="badge badge-link text-white" href="/dashboard"> &larr; Back to dashboard</a>
     <div class="row">
       <div class="col-sm-12 ">
-      <section class="form-pad">
-        <h2 class="post-create">Edit Post</h2>
+        <section class="form-pad">
+          <h2 class="post-create">Edit Post</h2>
 
-        <form class="edit-post-form">
-          <div>
-            <label class="post-title" for="post-title">Title</label>
-            <br>
-            <input type="text" id="post-title" name="post-title" value="{{post.title}}"/>
-          </div>
-          <div>
-              <textarea class="post-body" name="post-body" id='post-body'>{{post.post_content}}</textarea>
-          </div>
-          <button type="submit" class="btn">Update</button>
-          <button type="button" class="btn delete">Delete</button>
-        </form>
-      </section>
+          <form class="edit-post-form">
+            <div>
+              <label class="post-title" for="post-title">Title</label>
+              <br>
+              <input type="text" id="post-title" name="post-title" value="{{post.title}}"/>
+            </div>
+            <div>
+                <textarea class="post-body" name="post-body" id='post-body'>{{post.post_content}}</textarea>
+            </div>
+            <button type="submit" class="btn">Update</button>
+            <button type="button" class="btn delete">Delete</button>
+          </form>
+        </section>
       </div>
     </div>
   </div>

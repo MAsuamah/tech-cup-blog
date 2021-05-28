@@ -1,3 +1,5 @@
+//FUNCTION TO ADD COMMENT TO POST
+
 async function commentFormHandler(event) {
   event.preventDefault();
 

@@ -13,11 +13,10 @@ body {
 .titles {
   font-size: 50px; 
 }
-
 /*UTLITIES STYLING ENDS*/
 
-/*NAV STYLING STARTS */
 
+/*NAV STYLING STARTS */
 .links {
   padding: 20px 35px;
   display: flex;
@@ -66,11 +65,10 @@ header h1 {
   font-family: 'Staatliches', cursive;
   color: white;
 }
-
 /*NAV STYLING ENDS*/
 
-/*HERO STYLING STARTS*/
 
+/*HERO STYLING STARTS*/
 #hero h2 {
   font-family: 'Staatliches', cursive;
   text-align: center;
@@ -86,10 +84,11 @@ header h1 {
   background-size: cover;
   height: 60vh;
 }
-
 /*HERO STYLING ENDS*/
 
-/*CARD STYLING STARTS*/
+
+
+/*POST CARD STYLING STARTS*/
 .card{
   margin: 30px;
   border: none;
@@ -110,8 +109,9 @@ header h1 {
   text-decoration: none;
   
 }
+/* POST CARD STYLING ENDS*/
 
-/*CARD STYLING ENDS*/
+
 
 /*SIGNUP/LOGIN FORM STYLING STARTS*/
 .btn {
@@ -157,11 +157,10 @@ header h1 {
   margin-left: 15px;
   font-weight: 400;
 }
-
 /* SIGNUP/LOGIN FORM STYLING ENDS*/
 
-/* SINGLE POST STYLING STARTS */
 
+/* SINGLE POST STYLING STARTS */
 .single-title {
   font-family: 'Staatliches', cursive;
   color: white;
@@ -184,9 +183,18 @@ textarea {
   padding: 10px;
 }
 
+.comments {
+  margin-bottom: 40px;
+}
+
+.meta {
+  text-decoration: underline;
+  font-weight: 700;
+}
 /* SINGLE POST STYLING ENDS*/
 
-/* NEW POST/DASHBOARD STYLING STARTS*/
+
+/* NEW POST/DASHBOARD/EDIT/DELETE STYLING STARTS*/
 .post-create {
   color: white;
   font-family: 'Staatliches', cursive;
@@ -255,16 +263,11 @@ textarea {
   font-size: 20px; 
 }
 
-/* NEW POST STYLING ENDS*/
-
-
-/* EDIT POST STYLING STARTS*/
-
 .delete {
   background-color: red;
 }
+/* NEW POST/DASHBOARD/EDIT/DELETE STYLING ENDS*/
 
-/* EDIT POST STYLING ENDS*/
 
 
 
