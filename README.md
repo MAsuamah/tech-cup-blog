@@ -6,7 +6,7 @@ A tech blogging website where users can create an account, post, read, and comme
 
 <img src ="https://user-images.githubusercontent.com/77217156/119924417-8b8d3a00-bf41-11eb-8d66-a498535374c4.png" width="600" height="800">
 
-## How to Use
+## How it Works
 
 * On the landing page you will be able to see all the blog posts that have previously been posted. 
 You can also read the comments under each post by clicking on the title of the post.
@@ -18,7 +18,7 @@ You can also read the comments under each post by clicking on the title of the p
 
 <img src ="https://user-images.githubusercontent.com/77217156/119925093-bfb52a80-bf42-11eb-8164-00d717cf722e.png" width="600" height="400">
 
-* Once you are logged in, when you click on a post title you can now add your own comments to posts.
+* Once you are logged in, when you click on a post title, you can now add your own comments to posts.
 
 <img src ="https://user-images.githubusercontent.com/77217156/119925472-8630ef00-bf43-11eb-9c25-9abefe7b21e2.gif" width="650" height="400">
 
@@ -27,12 +27,12 @@ click `dashboard` in the navigation bar. Your dashboard will look similar to the
 
 <img src ="https://user-images.githubusercontent.com/77217156/119926057-a01f0180-bf44-11eb-95d5-b01edd40c198.png" width="600" height="400">
 
-* To edit posts click on the title and and make any changes you would like to make. You will also have the option to delete the post.
+* To edit posts click on the title and make any changes you would like to make. You will also have the option to delete the post.
 
 <img src ="https://user-images.githubusercontent.com/77217156/119986778-4513fb80-bf92-11eb-9069-2dd4c650cdf0.gif" width="650" height="400">
 
 
-* To create aa new post click on the new post button.
+* To create a new post click on the new post button.
 
 <img src ="https://user-images.githubusercontent.com/77217156/119985812-22cdae00-bf91-11eb-87be-4628900c2a68.gif" width="650" height="400">
 
