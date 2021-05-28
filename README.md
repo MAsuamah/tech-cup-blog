@@ -11,8 +11,7 @@ A tech blogging website where users can create an account, post, read, and comme
 * On the landing page you will be able to see all the blog posts that have previously been posted. 
 You can also read the comments under each post by clicking on the title of the post.
 
-<img src ="https://user-images.githubusercontent.com/77217156/119926366-44a14380-bf45-11eb-8a75-f87e0b287cb2.png
-" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/77217156/119926366-44a14380-bf45-11eb-8a75-f87e0b287cb2.png" width="600" height="400">
 
 * You can only comment and create/edit/delete posts if you are logged in.
 * To login, click `login` in the navagation bar. Enter your credentials or signup to create a new account.
