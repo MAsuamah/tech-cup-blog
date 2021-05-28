@@ -23,9 +23,8 @@ You can also read the comments under each post by clicking on the title of the p
 * You will also have access to your dashboard where you can create new posts, and edit or delete older posts. To access your dashboard 
 click `dashboard` in the navagation bar. Your dashboard will look similar to the following:
 
-<img width="900" alt="Screen Shot 2021-05-23 at 12 08 44 AM" src="https://user-images.githubusercontent.com/77217156/119248215-a46ea780-bb5d-11eb-96f7-28d6bcb1841f.png">
+<img src ="https://user-images.githubusercontent.com/77217156/119926057-a01f0180-bf44-11eb-95d5-b01edd40c198.png" width="600" height="400">
 
-V
 
 ## Built With
 * Sequelize 
