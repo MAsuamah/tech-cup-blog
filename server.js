@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
 
 //Session setup
 const sess = {
-  secret: process.env.SESSION_SECRET,
+  secret: '!epL[.O<Dv?',
   cookie: {},
   resave: false,
   saveUninitialized: true,
