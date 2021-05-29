@@ -59,12 +59,12 @@ To logout, click on the `logout` button in the navigation bar.
 * express-session
 * connect-session-sequelize
 
+## Website
+https://tech-cup-blog.herokuapp.com/
+
 ## Credits
 https://stackoverflow.com/questions/667555/how-to-detect-idle-time-in-javascript-elegantly
 
-
-## Website
-https://tech-cup-blog.herokuapp.com/
 
 ## Contributors
 Michelle Asuamah
