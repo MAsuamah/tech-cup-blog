@@ -15,7 +15,7 @@ You can also read the comments under each post by clicking on the title of the p
 
 <img src ="https://user-images.githubusercontent.com/77217156/119926366-44a14380-bf45-11eb-8a75-f87e0b287cb2.png" width="600" height="400">
 
-### Login
+### Login or Signup
 
 To login, click `login` in the navigation bar. Enter your credentials or signup to create a new account.
 
