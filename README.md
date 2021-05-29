@@ -38,7 +38,7 @@ To edit posts, click on the title of the post while on your dashboard, and make 
 
 ### Commenting
 
-When logged in you can also comment on posts written by other users. When you click on the title of the posts while on the homepage, you will be able to read the post's comments and add your own comments as well.
+When logged in you can also comment on posts. When you click on the title of the posts while on the homepage, you will be able to read the post's comments and add your own comments as well.
 
 <img src ="https://user-images.githubusercontent.com/77217156/119925472-8630ef00-bf43-11eb-9c25-9abefe7b21e2.gif" width="650" height="400">
 
