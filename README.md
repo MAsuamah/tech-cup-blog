@@ -36,7 +36,7 @@ When logged in you can also comment on posts written by other users. When you cl
 
 <img src ="https://user-images.githubusercontent.com/77217156/119925472-8630ef00-bf43-11eb-9c25-9abefe7b21e2.gif" width="650" height="400">
 
-To logout, click on the logout button in the navigation bar.
+To logout, click on the `logout` button in the navigation bar.
 
 
 
