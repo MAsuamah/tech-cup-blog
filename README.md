@@ -27,7 +27,7 @@ To create a new post, click on the new post button. You will be taken to the new
 
 <img src ="https://user-images.githubusercontent.com/77217156/119985812-22cdae00-bf91-11eb-87be-4628900c2a68.gif" width="650" height="400">
 
-To edit posts, click on the title and make any changes you would like to make. You will also have the option to delete the post.
+To edit posts, click on the title of the post while on your dashboard, and make any changes you would like to make. You will also have the option to delete the post.
 
 <img src ="https://user-images.githubusercontent.com/77217156/119986778-4513fb80-bf92-11eb-9069-2dd4c650cdf0.gif" width="650" height="400">
 
