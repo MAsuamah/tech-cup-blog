@@ -18,22 +18,23 @@ You can also read the comments under each post by clicking on the title of the p
 
 <img src ="https://user-images.githubusercontent.com/77217156/119925093-bfb52a80-bf42-11eb-8164-00d717cf722e.png" width="600" height="400">
 
-Once you are logged in, when you click on a post title, you can now add your own comments to posts.
+Once you are logged in, you will be taken to your dashboard where you can create new posts, and edit or delete older posts. You can also access your dashboard through the navigation bar. Your dashboard will look similar to the following: 
 
-<img src ="https://user-images.githubusercontent.com/77217156/119925472-8630ef00-bf43-11eb-9c25-9abefe7b21e2.gif" width="650" height="400">
+<img src ="https://user-images.githubusercontent.com/77217156/119926057-a01f0180-bf44-11eb-95d5-b01edd40c198.png" width="600" 
+height="400">
 
-You will also have access to your dashboard where you can create new posts, and edit or delete older posts. To access your dashboard 
-click `dashboard` in the navigation bar. Your dashboard will look similar to the following:
+To create a new post click on the new post button. You will be taken to the new post page where you can enter your post's title and content.
 
-<img src ="https://user-images.githubusercontent.com/77217156/119926057-a01f0180-bf44-11eb-95d5-b01edd40c198.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/77217156/119985812-22cdae00-bf91-11eb-87be-4628900c2a68.gif" width="650" height="400">
 
 To edit posts click on the title and make any changes you would like to make. You will also have the option to delete the post.
 
 <img src ="https://user-images.githubusercontent.com/77217156/119986778-4513fb80-bf92-11eb-9069-2dd4c650cdf0.gif" width="650" height="400">
 
-To create a new post click on the new post button.
 
-<img src ="https://user-images.githubusercontent.com/77217156/119985812-22cdae00-bf91-11eb-87be-4628900c2a68.gif" width="650" height="400">
+When logged in you can also comment on posts written by other users. When you click on the title of the posts while on the homepage, you will be able to read the post's comments and add your own comments as well.
+
+<img src ="https://user-images.githubusercontent.com/77217156/119925472-8630ef00-bf43-11eb-9c25-9abefe7b21e2.gif" width="650" height="400">
 
 
 
