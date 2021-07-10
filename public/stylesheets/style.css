@@ -269,6 +269,14 @@ textarea {
 /* NEW POST/DASHBOARD/EDIT/DELETE STYLING ENDS*/
 
 
+@media only screen and (max-width: 600px) {
+  .login-form {
+    width: 95% !important
+  }
 
+  .signup-form {
+    width: 95% !important
+  }
+}
 
 
